@@ -43,6 +43,7 @@ $r->post('/contact$','Contact.index','contact');
 $r->any('/contact$','Contact.index','contact');
 ```
 # url
+please see the example in file `/app/index/controller/Index.php`
 ```php
 echo \M\R::url('admin_attachments_list',1024,"a_string");
 ```
